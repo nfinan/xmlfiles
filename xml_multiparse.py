@@ -39,7 +39,7 @@ import xml.etree.ElementTree as ET
 '''
 
 # Directory containing XML files
-directory = 'c:/Users/nador/Downloads/xmlfiles/xmlfiles' # REPLACE with xml directory
+directory = 'c:/Users/nador/Downloads/xmlfiles/xmlfiles/materialsmine_xmls' # REPLACE with xml directory
 
 def check_structure(file_path):
     # Check for various features in the xml.for example, here we are looking for xmls with
@@ -57,6 +57,16 @@ def check_structure(file_path):
                     dynamic_property_profile = dynamic_properties.find('DynamicPropertyProfile')
                     if dynamic_property_profile is not None:
                         return True
+                        # frequency = dynamic_property_profile.find('Temperature')
+                        # if frequency is not None:
+                        #     return True
+                        # data = dynamic_property_profile.find('data')
+                        # if data is not None:
+                        #     axis_label = data.find('AxisLabel')
+                        #     if axis_label is not None:
+                        #         x_name = axis_label.find('xName')
+                        #         if x_name is not None:
+                        #               return True
     except ET.ParseError:
         pass
     return False

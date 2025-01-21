@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 # Load the XML file
-tree = ET.parse('c:/Users/nador/Downloads/xmlfiles/xmlfiles/L101_S1_Dang_2007.xml')
+tree = ET.parse('c:/Users/nador/Downloads/xmlfiles/xmlfiles/materialsmine_xmls/L101_S1_Dang_2007.xml')
 # tree = ET.parse('L101_S1_Dang_2007.xml')
 root = tree.getroot()
 
