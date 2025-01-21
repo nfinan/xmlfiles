@@ -1,0 +1,96 @@
+<PolymerNanocomposite>
+    <ID>L101_S1_Dang_2008</ID>
+    <DATA_SOURCE>
+        <Citation>
+            <CommonFields>
+                <CitationType>research article</CitationType>
+                <Publication>Composities Science and Technology</Publication>
+                <Title>Study on microstructure and dielectric property of the BaTiO3/epoxy resin composites</Title>
+                <Author>Dang, Zhi-Min</Author>
+                <Author>Yu, Yan-Fei</Author>
+                <Author>Xu, Hai-Ping</Author>
+                <Author>Bai, Jinbo</Author>
+                <Keyword>Dielectric properties</Keyword>
+                <Keyword>Microstructure</Keyword>
+                <Keyword>BaTiO3</Keyword>
+                <Keyword>Silane coupling agent</Keyword>
+                <Publisher>Elsevier</Publisher>
+                <PublicationYear>2007</PublicationYear>
+                <DOI>10.1016/j.compscitech.2007.05.021</DOI>
+                <Volume>68</Volume>
+                <URL>http://goo.gl/AH4ny4</URL>
+                <Language>English</Language>
+                <Location>Beijing, China</Location>
+                <DateOfCitation>7/24/15</DateOfCitation>
+            </CommonFields>
+        </Citation>
+    </DATA_SOURCE>
+    <MATERIALS>
+        <Matrix>
+            <MatrixComponent>
+                <ChemicalName>diglycidyl ether of bisphenol A</ChemicalName>
+                <Abbreviation>EPR</Abbreviation>
+                <Hardener>Methyltetrahydrophtalic anhydride</Hardener>
+            </MatrixComponent>
+            <MatrixProcessing>
+                <ChooseParameter>
+                    <Additive>
+                        <Additive>2-ethyl-4- methyl-imidazole</Additive>
+                    </Additive>
+                </ChooseParameter>
+            </MatrixProcessing>
+        </Matrix>
+    </MATERIALS>
+    <PROCESSING>
+        <SolutionProcessing>
+            <ChooseParameter>
+                <Solvent>Unknown</Solvent>
+            </ChooseParameter>
+            <ChooseParameter>
+                <Mixing>
+                    <MixingMethod>ball milling</MixingMethod>
+                    <Time>
+                        <value>24</value>
+                        <unit>hours</unit>
+                    </Time>
+                </Mixing>
+            </ChooseParameter>
+            <ChooseParameter>
+                <Heating>
+                    <Description>evaporate solvent</Description>
+                </Heating>
+            </ChooseParameter>
+            <ChooseParameter>
+                <Drying-Evaporation>
+                    <Description>remove solvent residue</Description>
+                </Drying-Evaporation>
+            </ChooseParameter>
+            <ChooseParameter>
+                <Heating>
+                    <Description>satisfy curing process</Description>
+                </Heating>
+            </ChooseParameter>
+            <ChooseParameter>
+                <Molding>hot-pressing</Molding>
+            </ChooseParameter>
+        </SolutionProcessing>
+    </PROCESSING>
+    <CHARACTERIZATION>
+        <Scanning_Electron_Microscopy>
+            <EquipmentUsed>Hitachi S-4700</EquipmentUsed>
+        </Scanning_Electron_Microscopy>
+    </CHARACTERIZATION>
+    <PROPERTIES>
+        <Electrical>
+            <DC_DielectricConstant>
+                <value>3.7</value>
+            </DC_DielectricConstant>
+        </Electrical>
+        <Thermal>
+            <GlassTransitionTemperature>
+                <value>69.4</value>
+                <unit>Celsius</unit>
+            </GlassTransitionTemperature>
+        </Thermal>
+    </PROPERTIES>
+</PolymerNanocomposite>

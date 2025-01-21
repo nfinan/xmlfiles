@@ -1,0 +1,138 @@
+<PolymerNanocomposite>
+    <ID>L174_S3_Ramanathan_2008</ID>
+    <DATA_SOURCE>
+        <Citation>
+            <CommonFields>
+                <CitationType>research article</CitationType>
+                <Publication>Nature Nanotechnology</Publication>
+                <Title>Functionalized graphene sheets for polymer nanocomposites</Title>
+                <Author>Ramanathan, T.</Author>
+                <Author>Abdala, A. A.</Author>
+                <Author>Stankovich, S.</Author>
+                <Author>Dikin, D. A.</Author>
+                <Author>Herrera-Alonso, M.</Author>
+                <Author>Piner, R. D.</Author>
+                <Author>Adamson, D. H.</Author>
+                <Author>Schniepp, H. C.</Author>
+                <Author>Chen, X</Author>
+                <Author>Ruoff, R. S.</Author>
+                <Author>Nguyen, S. T.</Author>
+                <Author>Aksay, I. A.</Author>
+                <Author>PrudHomme, R. K.</Author>
+                <Author>Brinson, L. C.</Author>
+                <Publisher>Nature Publishing Group</Publisher>
+                <PublicationYear>2008</PublicationYear>
+                <DOI>10.1038/nnano.2008.96</DOI>
+                <Volume>3</Volume>
+                <URL>http://goo.gl/0JHykt</URL>
+            </CommonFields>
+        </Citation>
+    </DATA_SOURCE>
+    <MATERIALS>
+        <Matrix>
+            <MatrixComponent>
+                <ChemicalName>poly(methylmethacrylate)</ChemicalName>
+                <Abbreviation>PMMA</Abbreviation>
+                <ManufacturerName>Polysciences</ManufacturerName>
+                <MolecularWeight>
+                    <value>350000</value>
+                </MolecularWeight>
+            </MatrixComponent>
+        </Matrix>
+        <Filler>
+            <FillerComponent>
+                <ChemicalName>Graphite</ChemicalName>
+                <ManufacturerName>Asbury Carbons</ManufacturerName>
+                <ParticleSize>
+                    <value>45</value>
+                    <unit>um</unit>
+                </ParticleSize>
+            </FillerComponent>
+            <FillerComposition>
+                <mass>0.01</mass>
+            </FillerComposition>
+        </Filler>
+    </MATERIALS>
+    <PROCESSING>
+        <SolutionProcessing>
+            <ChooseParameter>
+                <Mixing>
+                    <MixingMethod>ultra-sonication</MixingMethod>
+                    <ChemicalUsed>THF</ChemicalUsed>
+                </Mixing>
+            </ChooseParameter>
+            <ChooseParameter>
+                <Mixing>
+                    <MixingMethod>high shear mixing</MixingMethod>
+                    <RPM>
+                        <value>6000</value>
+                    </RPM>
+                    <Time>
+                        <value>60</value>
+                        <unit>minutes</unit>
+                    </Time>
+                </Mixing>
+            </ChooseParameter>
+            <ChooseParameter>
+                <AmbientCondition>vacuum</AmbientCondition>
+            </ChooseParameter>
+            <ChooseParameter>
+                <Molding>hot-pressing</Molding>
+            </ChooseParameter>
+        </SolutionProcessing>
+    </PROCESSING>
+    <CHARACTERIZATION>
+        <Scanning_Electron_Microscopy>
+            <EquipmentUsed>LEO 1525 SEM, LEO Electron Microscopy</EquipmentUsed>
+            <AcceleratingVoltage>
+                <value>10.5</value>
+                <unit>kV</unit>
+            </AcceleratingVoltage>
+        </Scanning_Electron_Microscopy>
+        <XRay_Diffraction_and_Scattering>
+            <Equipment>Rigaku diffractometer, Rigaku   Americas</Equipment>
+        </XRay_Diffraction_and_Scattering>
+        <Atomic_Force_Microscopy>
+            <Equipment>MultiMode, NanoScope IIIa, Veeco Instruments</Equipment>
+        </Atomic_Force_Microscopy>
+    </CHARACTERIZATION>
+    <PROPERTIES>
+        <Mechanical>
+            <Tensile>
+                <TensileModulus>
+                    <value>3.1</value>
+                    <unit>GPa</unit>
+                    <uncertainty>
+                        <type>absolute</type>
+                        <value>0.25</value>
+                    </uncertainty>
+                </TensileModulus>
+                <TensileStressAtBreak>
+                    <value>73.3</value>
+                    <unit>MPa</unit>
+                    <uncertainty>
+                        <type>absolute</type>
+                        <value>4.2</value>
+                    </uncertainty>
+                </TensileStressAtBreak>
+            </Tensile>
+        </Mechanical>
+        <Thermal>
+            <GlassTransitionTemperature>
+                <value>112</value>
+                <unit>Celsius</unit>
+                <uncertainty>
+                    <type>absolute</type>
+                    <value>2.2</value>
+                </uncertainty>
+            </GlassTransitionTemperature>
+        </Thermal>
+    </PROPERTIES>
+    <MICROSTRUCTURE>
+        <LengthUnit>1um</LengthUnit>
+        <ImageFile>
+            <File>http://localhost/nmr/blob?id=5a11ad42e74a1d39bb0ec837</File>
+            <MicroscopyType>SEM</MicroscopyType>
+        </ImageFile>
+    </MICROSTRUCTURE>
+</PolymerNanocomposite>
